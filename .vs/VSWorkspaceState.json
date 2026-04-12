@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Locadora_veiculos",
+    "\\Locadora_veiculos\\Locadora_veiculos",
+    "\\Locadora_veiculos\\Locadora_veiculos\\Models"
   ],
-  "SelectedNode": "\\C:\\Users\\joaop\\Source\\Repos\\tads-2026-1-tp1-JoaoPedroferrei",
+  "SelectedNode": "\\Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs",
   "PreviewInSolutionExplorer": false
 }

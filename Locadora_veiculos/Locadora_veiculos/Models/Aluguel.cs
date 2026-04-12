@@ -40,7 +40,7 @@ namespace Locadora_veiculos.Models
         [Range(0, double.MaxValue)]
         public decimal? ValorTotal { get; set; }
 
-        // "Aberto", "Concluído", "Cancelado"
+        // "ex: StatusAluguel.Aberto"
         public enum StatusAluguel
         {
             Aberto,

@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Locadora_veiculos\\Locadora_veiculos\\Models\\Fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Locadora_veiculos\\Locadora_veiculos\\Models\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Locadora_veiculos\\Locadora_veiculos\\Models\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Locadora_veiculos\\Locadora_veiculos\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +50,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fabricante.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Fabricante.cs",
+              "RelativeDocumentMoniker": "Locadora_veiculos\\Locadora_veiculos\\Models\\Fabricante.cs",
+              "ToolTip": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Fabricante.cs",
+              "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Fabricante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:23:47.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Locadora_veiculos\\Locadora_veiculos\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Cliente.cs",
+              "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:23:34.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Locadora_veiculos\\Locadora_veiculos\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Categoria.cs",
+              "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:23:23.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Locadora_veiculos\\Locadora_veiculos\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:22:14.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LocadoraDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs",
+              "RelativeDocumentMoniker": "Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs",
+              "ToolTip": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs",
+              "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAADwv1MAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T18:20:16.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Aluguel.cs",
               "DocumentMoniker": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs",
               "RelativeDocumentMoniker": "Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs",
               "ToolTip": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs",
               "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvz4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T01:51:36.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\README.md",
               "RelativeDocumentMoniker": "README.md",

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Locadora_veiculos.Models;
+using static Locadora_veiculos.Models.Aluguel;
 
 namespace Locadora_veiculos.Data
 {
@@ -20,7 +21,7 @@ namespace Locadora_veiculos.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Fabricante ───────────────────────────────────────────────────
+            // Fabricante 
             modelBuilder.Entity<Fabricante>(entity =>
             {
                 entity.ToTable("Fabricantes");
@@ -29,7 +30,7 @@ namespace Locadora_veiculos.Data
                 entity.Property(f => f.PaisOrigem).HasMaxLength(100);
             });
 
-            // Categoria ────────────────────────────────────────────────────
+            // Categoria
             modelBuilder.Entity<Categoria>(entity =>
             {
                 entity.ToTable("Categorias");
@@ -38,7 +39,7 @@ namespace Locadora_veiculos.Data
                 entity.Property(c => c.Descricao).HasMaxLength(255);
             });
 
-            // Veículo ──────────────────────────────────────────────────────
+            // Veículo
             modelBuilder.Entity<Veiculo>(entity =>
             {
                 entity.ToTable("Veiculos");
@@ -47,7 +48,7 @@ namespace Locadora_veiculos.Data
                 entity.Property(v => v.AnoFabricacao).IsRequired();
                 entity.Property(v => v.Quilometragem).IsRequired().HasColumnType("decimal(10,2)");
                 entity.Property(v => v.ValorDiaria).IsRequired().HasColumnType("decimal(10,2)");
-                entity.Property(v => v.Disponivel).HasDefaultValue(true);
+                entity.Property(v => v.Disponivel).HasDefaultValue(true).ValueGeneratedNever();
 
                 // Fabricante -> Veículos (N:1)
                 entity.HasOne(v => v.Fabricante)
@@ -62,7 +63,7 @@ namespace Locadora_veiculos.Data
                       .OnDelete(DeleteBehavior.Restrict);
             });
 
-            // Cliente ──────────────────────────────────────────────────────
+            // Cliente
             modelBuilder.Entity<Cliente>(entity =>
             {
                 entity.ToTable("Clientes");
@@ -74,10 +75,10 @@ namespace Locadora_veiculos.Data
 
                 // Índices únicos
                 entity.HasIndex(c => c.CPF).IsUnique();
-                entity.HasIndex(c => c.Email).IsUnique();
+                entity.HasIndex(c => c.Email).IsUnique(); 
             });
 
-            // Aluguel ──────────────────────────────────────────────────────
+            // Aluguel 
             modelBuilder.Entity<Aluguel>(entity =>
             {
                 entity.ToTable("Alugueis");
@@ -88,7 +89,7 @@ namespace Locadora_veiculos.Data
                 entity.Property(a => a.KmFinal).HasColumnType("decimal(10,2)");
                 entity.Property(a => a.ValorDiaria).IsRequired().HasColumnType("decimal(10,2)");
                 entity.Property(a => a.ValorTotal).HasColumnType("decimal(10,2)");
-                entity.Property(a => a.Status).IsRequired().HasMaxLength(20).HasDefaultValue("Aberto");
+                entity.Property(a => a.Status).IsRequired().HasMaxLength(20).HasDefaultValue(StatusAluguel.Aberto);
 
                 // Cliente -> Aluguéis (N:1)
                 entity.HasOne(a => a.Cliente)

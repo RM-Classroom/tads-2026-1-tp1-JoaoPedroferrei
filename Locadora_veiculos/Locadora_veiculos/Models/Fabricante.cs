@@ -4,7 +4,7 @@ namespace Locadora_veiculos.Models
 {
     public class Fabricante
     {
-        // Fabricante (marca do veículo)
+        //(marca do veículo)
         [Key]
         public int Id { get; set; }
 
