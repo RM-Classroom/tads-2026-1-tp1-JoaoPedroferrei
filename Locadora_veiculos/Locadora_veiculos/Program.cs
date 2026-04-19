@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace Locadora_veiculos
 {
-    public class Program
+    public partial class Program
     {
         public static void Main(string[] args)
         {
@@ -41,11 +41,11 @@ namespace Locadora_veiculos
             // Swagger sempre disponível
             app.UseSwagger();
             app.UseSwaggerUI();
-
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
             app.Run();
+
         }
     }
 }

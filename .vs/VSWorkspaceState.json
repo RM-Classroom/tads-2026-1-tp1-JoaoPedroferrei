@@ -3,8 +3,11 @@
     "",
     "\\Locadora_veiculos",
     "\\Locadora_veiculos\\Locadora_veiculos",
-    "\\Locadora_veiculos\\Locadora_veiculos\\Models"
+    "\\Locadora_veiculos\\Locadora_veiculos\\Controllers",
+    "\\Locadora_veiculos\\Locadora_veiculos\\Data",
+    "\\Locadora_veiculos\\Locadora_veiculos\\Models",
+    "\\Locadora_veiculos\\Locadora_veiculos\\Properties"
   ],
-  "SelectedNode": "\\Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs",
+  "SelectedNode": "\\Locadora_veiculos\\Locadora_veiculos\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -38,12 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -58,8 +54,7 @@
               "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Fabricante.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:23:47.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:23:47.795Z"
             },
             {
               "$type": "Document",
@@ -71,8 +66,7 @@
               "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:23:34.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:23:34.308Z"
             },
             {
               "$type": "Document",
@@ -84,8 +78,7 @@
               "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Categoria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:23:23.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:23:23.759Z"
             },
             {
               "$type": "Document",
@@ -97,8 +90,7 @@
               "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:22:14.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:22:14.566Z"
             },
             {
               "$type": "Document",
@@ -108,7 +100,7 @@
               "RelativeDocumentMoniker": "Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs",
               "ToolTip": "C:\\Users\\joaop\\source\\repos\\tads-2026-1-tp1-JoaoPedroferrei\\Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs",
               "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Data\\LocadoraDbContext.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAADwv1MAAAApAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAADwv2UAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T18:20:16.676Z",
               "EditorCaption": ""
@@ -123,8 +115,7 @@
               "RelativeToolTip": "Locadora_veiculos\\Locadora_veiculos\\Models\\Aluguel.cs",
               "ViewState": "AQIAABoAAAAAAAAAAADwvz4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T01:51:36.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T01:51:36.893Z"
             },
             {
               "$type": "Document",
@@ -136,8 +127,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-04-10T00:53:16.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T00:53:16.311Z"
             }
           ]
         }
