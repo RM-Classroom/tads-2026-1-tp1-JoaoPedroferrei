@@ -120,9 +120,9 @@ namespace Locadora_veiculos.Controllers
 
         // PUT: api/Veiculos/5
         [HttpPut("{id}")]
-        [ProducesResponseType(typeof(VeiculoResponseDto), 200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
+        [ProducesResponseType(typeof(VeiculoResponseDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<VeiculoResponseDto>> PutVeiculo(int id, VeiculoUpdateDto dto)
         {
             if (!ModelState.IsValid)

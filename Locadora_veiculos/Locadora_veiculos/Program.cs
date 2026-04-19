@@ -10,18 +10,21 @@ namespace Locadora_veiculos
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Entity Framework Core com SQL Server
+            // Conecta ao banco de dados
             builder.Services.AddDbContext<LocadoraDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            // Controllers com JSON enum como string e referência cíclica ignorada
+            // Configura os controllers
             builder.Services.AddControllers()
                 .AddJsonOptions(opts =>
                 {
+                    // Exibe enums como texto ("Aberto") ao invés de número (0)
                     opts.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+                    // Evita erro de referência circular entre entidades
                     opts.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
                 });
 
+            // Swagger para documentação e testes
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
             {
@@ -29,33 +32,16 @@ namespace Locadora_veiculos
                 {
                     Title = "Locadora de Veículos API",
                     Version = "v1",
-                    Description = "API RESTful para gerenciamento de locadora de veículos"
+                    Description = "API para gerenciamento de locadora de veículos"
                 });
-            });
-
-            // CORS para desenvolvimento
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAll", policy =>
-                    policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
 
             var app = builder.Build();
 
-            // Aplicar migrations automaticamente ao iniciar
-            using (var scope = app.Services.CreateScope())
-            {
-                var db = scope.ServiceProvider.GetRequiredService<LocadoraDbContext>();
-                db.Database.Migrate();
-            }
+            // Swagger sempre disponível
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();

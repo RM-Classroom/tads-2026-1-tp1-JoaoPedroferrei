@@ -21,7 +21,7 @@ namespace Locadora_veiculos.Controllers
 
         // GET: api/Alugueis
         [HttpGet]
-        [ProducesResponseType(typeof(IEnumerable<AluguelResponseDto>), 200)]
+        [ProducesResponseType(typeof(IEnumerable<AluguelResponseDto>), StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<AluguelResponseDto>>> GetAlugueis()
         {
             var alugueis = await _context.Alugueis
@@ -51,8 +51,8 @@ namespace Locadora_veiculos.Controllers
 
         // GET: api/Alugueis/5
         [HttpGet("{id}")]
-        [ProducesResponseType(typeof(AluguelResponseDto), 200)]
-        [ProducesResponseType(404)]
+        [ProducesResponseType(typeof(AluguelResponseDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<AluguelResponseDto>> GetAluguel(int id)
         {
             var aluguel = await _context.Alugueis
@@ -86,8 +86,8 @@ namespace Locadora_veiculos.Controllers
 
         // POST: api/Alugueis
         [HttpPost]
-        [ProducesResponseType(typeof(AluguelResponseDto), 201)]
-        [ProducesResponseType(400)]
+        [ProducesResponseType(typeof(AluguelResponseDto), StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<AluguelResponseDto>> PostAluguel(AluguelCreateDto dto)
         {
             if (!ModelState.IsValid)
@@ -154,9 +154,9 @@ namespace Locadora_veiculos.Controllers
 
         // PUT: api/Alugueis/5/devolver  → devolução do veículo
         [HttpPut("{id}/devolver")]
-        [ProducesResponseType(typeof(AluguelResponseDto), 200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
+        [ProducesResponseType(typeof(AluguelResponseDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<AluguelResponseDto>> DevolverVeiculo(int id, AluguelDevolucaoDto dto)
         {
             if (!ModelState.IsValid)
@@ -215,9 +215,9 @@ namespace Locadora_veiculos.Controllers
 
         // PUT: api/Alugueis/5/cancelar
         [HttpPut("{id}/cancelar")]
-        [ProducesResponseType(typeof(AluguelResponseDto), 200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
+        [ProducesResponseType(typeof(AluguelResponseDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<AluguelResponseDto>> CancelarAluguel(int id)
         {
             var aluguel = await _context.Alugueis
@@ -257,9 +257,9 @@ namespace Locadora_veiculos.Controllers
 
         // DELETE: api/Alugueis/5
         [HttpDelete("{id}")]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> DeleteAluguel(int id)
         {
             var aluguel = await _context.Alugueis

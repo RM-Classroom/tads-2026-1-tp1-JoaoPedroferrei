@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Locadora_veiculos.Migrations
 {
     [DbContext(typeof(LocadoraDbContext))]
-    [Migration("20260412171729_InitialCreate")]
+    [Migration("20260418201451_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
